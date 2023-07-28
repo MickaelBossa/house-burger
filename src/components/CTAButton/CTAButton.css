@@ -1,0 +1,10 @@
+.CTAButton-container {
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    color: #fefeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+}

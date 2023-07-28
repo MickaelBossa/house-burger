@@ -1,0 +1,5 @@
+.homePage-container {
+    background-image: url('../../medias//images//bg-food.jpg');
+    background-repeat: repeat;
+    height: 100vh;
+}

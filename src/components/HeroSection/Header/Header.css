@@ -8,24 +8,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-.logo {
-    width: 200px;
-}
-
-.clickAndCollectTxt {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-}
-
-.bag {
-    width: 25px;
-}
-
-.authentication-buttons-container {
-    display: flex;
-    gap: 7px;
-    justify-content: end;
-    margin-top: 10px;
-}

@@ -5,12 +5,12 @@ import ClickAndCollectTxt from './ClickAndCollectTxt/ClickAndCollectTxt';
 
 export default function Header() {
     return (
-        <div className="header-container">
+        <header className="header-container">
             <div className='header-logo-txt'>
                 <Logo />
                 <ClickAndCollectTxt />
             </div>
             <AuthenticationButtons />
-        </div>
+        </header>
     );
 }

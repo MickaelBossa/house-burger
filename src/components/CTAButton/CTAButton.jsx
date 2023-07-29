@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import './CTAButton.css';
 
-export default function CTAButton({ txt, color }) {
+export default function CTAButton({ txt, color, width }) {
     return (
-        <div className="CTAButton-container" style={{ backgroundColor: color }}>
+        <button className="CTAButton-container" style={{ backgroundColor: color, width: width }}>
             {txt}
-        </div>
+        </button>
     );
 }
